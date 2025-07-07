@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diabetes Predictor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🩺 Diabetes Prediction Form</h1>
+    <form id="diabetes-form">
+      <label>Age: <input type="number" name="age" required></label>
+      <label>Gender:
+        <select name="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </label>
+      <label>Polyuria:
+        <select name="polyuria">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Polydipsia:
+        <select name="polydipsia">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Sudden Weight Loss:
+        <select name="sudden_weight_loss">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Weakness:
+        <select name="weakness">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Polyphagia:
+        <select name="polyphagia">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Genital Thrush:
+        <select name="genital_thrush">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Visual Blurring:
+        <select name="visual_blurring">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Itching:
+        <select name="itching">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Irritability:
+        <select name="irritability">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Delayed Healing:
+        <select name="delayed_healing">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Partial Paresis:
+        <select name="partial_paresis">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Muscle Stiffness:
+        <select name="muscle_stiffness">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Alopecia:
+        <select name="alopecia">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <label>Obesity:
+        <select name="obesity">
+          <option>Yes</option><option>No</option>
+        </select>
+      </label>
+      <button type="submit">🔍 Predict</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

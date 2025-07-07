@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prediction Result</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Prediction Result</h1>
+    <div id="result-box">
+      <p id="prediction-text">Loading...</p>
+      <a href="index.html"><button>🔁 Try Again</button></a>
+    </div>
+  </div>
+  <script>
+    const result = JSON.parse(localStorage.getItem("prediction_result"));
+    document.getElementById("prediction-text").innerText =
+      "🧬 Prediction: " + result.message;
+  </script>
+</body>
+</html>
